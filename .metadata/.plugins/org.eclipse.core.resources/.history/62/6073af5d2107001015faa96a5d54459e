@@ -1,0 +1,5 @@
+package com.raj.main.config;
+
+public class RestClientConfig {
+
+}

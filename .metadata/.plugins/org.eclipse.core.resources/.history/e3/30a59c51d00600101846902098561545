@@ -1,0 +1,5 @@
+package com.raj.main.repository;
+
+public interface CustomerRepository {
+
+}

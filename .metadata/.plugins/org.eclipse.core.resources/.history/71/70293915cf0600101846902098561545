@@ -1,0 +1,27 @@
+package com.raj.main.service;
+
+import org.springframework.stereotype.Service;
+
+import com.raj.main.entity.Customer;
+import com.raj.main.repository.CustomerRepository;
+
+@Service
+public class CustomerService {
+	
+	
+	
+	private CustomerRepository customerRepository;
+	public CustomerService(CustomerRepository customerRepository) {
+		super();
+		this.customerRepository = customerRepository;
+	}
+
+
+
+	public Customer createCustomer(Customer customer) {
+		
+	return customerRepository.save(customer);
+		
+	}
+
+}

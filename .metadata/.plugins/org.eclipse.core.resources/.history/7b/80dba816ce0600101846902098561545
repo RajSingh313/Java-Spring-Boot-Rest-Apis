@@ -1,0 +1,5 @@
+package com.raj.main.entity;
+
+public class Customer {
+
+}
